@@ -3,8 +3,15 @@
         "baseUrl": ".",
         "paths": {
             "@src/*": ["src/*"],
+
             "@common/*": ["src/common/*"],
-            "@users/*": ["src/users/*"]
+            "@commonInterfaces/*": ["src/common/interfaces/*"],
+            
+            "@users/*": ["src/users/*"],
+            "@usersDto/*": ["src/users/dto/*"],
+            "@usersDaos/*": ["src/users/daos/*"],
+            "@usersServices/*": ["src/users/services/*"],
+            "@usersControllers/*": ["src/users/controllers/*"],
         }
     }
 }
