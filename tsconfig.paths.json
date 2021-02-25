@@ -12,6 +12,7 @@
             "@usersDaos/*": ["src/users/daos/*"],
             "@usersServices/*": ["src/users/services/*"],
             "@usersControllers/*": ["src/users/controllers/*"],
+            "@usersMiddleware/*": ["src/users/middleware/*"],
         }
     }
 }
